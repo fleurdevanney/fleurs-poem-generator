@@ -1,1 +1,49 @@
+body {
+  background-color: #f3f1fe;
+}
 
+.container {
+  margin: 50px auto;
+  max-width: 600px;
+}
+a {
+  color: pink;
+}
+
+h1 {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+}
+form {
+  padding: 30px;
+  background-color: white;
+  display: flex;
+}
+.poem-input {
+  padding: 10px;
+  border-radius: 10px;
+  width: 80%;
+  border: none;
+}
+.submit-button {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  width: 20%;
+  margin-left: 10px;
+  background-color: pink;
+  color: white;
+}
+.poem {
+  background-color: white;
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+}
+footer {
+  margin-top: 20px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 11px;
+  text-align: center;
+}

@@ -4,40 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
     <title>ai poem generator</title>
   </head>
   <body>
-    <h1>ai poem generator</h1>
-    <form>
-      <input
-        type="text"
-        placeholder="tell me a poem about..."
-        required
-        autofocus
-        autocomplete="off"
-      />
-      <input type="submit" />
-
-      <div>
-        You may write me down in history With your bitter, twisted lies, You may
-        trod me in the very dirt But still, like dust, I'll rise.
+    <div class="container">
+      <h1>ai poem generator</h1>
+      <form>
+        <input
+          type="text"
+          placeholder="tell me a poem about..."
+          required
+          autofocus
+          autocomplete="off"
+          class="poem-input"
+        />
+        <input type="submit" class="submit-button" />
+      </form>
+      <div class="poem">
+        You may write me down in history <br />With your bitter, twisted lies,
+        <br />You may trod me in the very dirt <br />But still, like dust, I'll
+        rise.
       </div>
-    </form>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/fleurdevanney" target="_blank"
-        >Fleur Devanney</a
-      >, open-sourced on
-      <a
-        href="https://github.com/fleurdevanney/fleurs-poem-generator"
-        target="_blank"
-        >GitHub</a
-      >
-      and hosted on
-      <a href="https://fleurs-poem-generator.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+
+      <footer>
+        This project was coded by
+        <a href="https://github.com/fleurdevanney" target="_blank"
+          >Fleur Devanney</a
+        >, open-sourced on
+        <a
+          href="https://github.com/fleurdevanney/fleurs-poem-generator"
+          target="_blank"
+          >GitHub</a
+        >
+        and hosted on
+        <a href="https://fleurs-poem-generator.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
