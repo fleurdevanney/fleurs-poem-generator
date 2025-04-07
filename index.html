@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -10,12 +10,13 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>ai poem generator</title>
   </head>
   <body>
     <div class="container">
       <h1>ai poem generator</h1>
-      <form>
+      <form id="poem-form">
         <input
           type="text"
           placeholder="tell me a poem about..."
@@ -26,11 +27,7 @@
         />
         <input type="submit" class="submit-button" />
       </form>
-      <div class="poem">
-        You may write me down in history <br />With your bitter, twisted lies,
-        <br />You may trod me in the very dirt <br />But still, like dust, I'll
-        rise.
-      </div>
+      <div class="poem" id="poem"></div>
 
       <footer>
         This project was coded by

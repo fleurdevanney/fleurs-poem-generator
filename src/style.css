@@ -36,6 +36,9 @@ form {
   background-color: pink;
   color: white;
 }
+.submit-button:hover {
+  cursor: pointer;
+}
 .poem {
   background-color: white;
   color: #414043;
