@@ -13,6 +13,7 @@ a {
 h1 {
   font-family: "Roboto Mono", monospace;
   text-align: center;
+  color: #414043;
 }
 form {
   padding: 30px;
@@ -24,6 +25,7 @@ form {
   border-radius: 10px;
   width: 80%;
   border: none;
+  color: #aba8af;
 }
 .submit-button {
   padding: 10px;
@@ -36,6 +38,7 @@ form {
 }
 .poem {
   background-color: white;
+  color: #414043;
   font-family: "Roboto Mono", monospace;
   text-align: center;
   margin-top: 10px;
@@ -43,7 +46,8 @@ form {
 }
 footer {
   margin-top: 20px;
+  color: #414043;
   font-family: "Roboto Mono", monospace;
-  font-size: 11px;
+  font-size: 10px;
   text-align: center;
 }
