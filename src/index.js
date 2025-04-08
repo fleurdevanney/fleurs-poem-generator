@@ -4,6 +4,7 @@ function displayPoem(response) {
   new Typewriter("#poem", {
     strings: response.data.answer,
     autoStart: true,
+    cursor: "",
   });
 }
 
@@ -14,7 +15,7 @@ function generatePoem(event) {
   let apiKey = "16bfc20460o66fe0f260tfe95532783a";
   let prompt = `generate a poem about ${instructionsInput.value}`;
   let context =
-    "you are a poem expert. please generate a four line poem, each line starting on a new line.";
+    "you are a poem expert. please write a four line poem in basic HTML format. seperate each line with <br/>. please remove ```html.";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
   console.log(`prompt: ${prompt}`);
