@@ -17,19 +17,22 @@
   <body>
     <div class="container">
       <h1>ai poem generator</h1>
-      <form id="poem-form">
-        <input
-          type="text"
-          placeholder="tell me a poem about..."
-          required
-          autofocus
-          autocomplete="off"
-          class="poem-input"
-          id="user-instructions"
-        />
-        <input type="submit" class="submit-button" />
-      </form>
-      <div class="poem" id="poem"></div>
+      <div class="form-container">
+        <form id="poem-form">
+          <input
+            type="text"
+            placeholder="tell me a poem about..."
+            required
+            autofocus
+            autocomplete="off"
+            class="poem-input"
+            id="user-instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <small class="suggestions">e.g art, friendships, books...</small>
+      </div>
+      <div class="poem hidden" id="poem"></div>
       <footer>
         This project was coded by
         <a href="https://github.com/fleurdevanney" target="_blank"

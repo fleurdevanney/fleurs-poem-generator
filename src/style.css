@@ -15,10 +15,19 @@ h1 {
   text-align: center;
   color: #414043;
 }
+.form-container {
+  padding: 20px;
+  background-color: white;
+  font-family: "Roboto Mono", monospace;
+}
 form {
   padding: 30px;
   background-color: white;
   display: flex;
+}
+.suggestions {
+  font-size: 10px;
+  color: #aba8af;
 }
 .poem-input {
   padding: 10px;
@@ -26,6 +35,8 @@ form {
   width: 80%;
   border: none;
   color: #aba8af;
+  font-family: "Roboto Mono", monospace;
+  font-size: 12px;
 }
 .submit-button {
   padding: 10px;
@@ -46,6 +57,9 @@ form {
   text-align: center;
   margin-top: 10px;
   padding: 10px;
+}
+.hidden {
+  display: none;
 }
 footer {
   margin-top: 20px;
